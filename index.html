@@ -2,27 +2,40 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gomitax</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="¿Antojo de algo dulce? Compra las mejores gomitas en Gomitax. Encuentra gomitas ácidas, dulces, de sabores frutales y más con envíos rápidos. ¡Haz tu pedido ya!">
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="gomitas, gomitas enchiladas, gomitas ácidas, gomitas frutales, panditas, comprar gomitas" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Gomitax — Gomitas de edición limitada" />
+  <meta property="og:description" content="¿Antojo de algo dulce? Compra las mejores gomitas en Gomitax: ácidas, enchiladas y frutales. Envíos rápidos. ¡Haz tu pedido ya!" />
+  <meta property="og:url" content="https://www.gomitax.com/" />
+  <meta property="og:image" content="https://www.gomitax.com/img/hero.png" />
+  <meta property="og:image:alt" content="Gomitas de edición limitada Gomitax" />
+  <meta property="og:site_name" content="Gomitax" />
+  <meta property="og:locale" content="es_MX" />  
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
+
+   <title>Gomitax — Gomitas de edición limitada</title>
 </head>
 <body>
 
- 
-  <nav class="navbar">
+ <header>
+   <nav class="navbar" aria-label="Menu Principal">
     <div class="nav-logo">Gomitax</div>
     <ul class="nav-links">
       <li><a href="#" class="active">Inicio</a></li>
       <li><a href="#products">Productos</a></li>
     </ul>
-    
   </nav>
-
-  <section class="hero">
-   
+ </header>
+ 
+<main>
+  <section class="hero" aria-label="Edicion limitada de gomitas">
     <div class="hero-content">
       <h1 class="hero-title">LA ESPERA TERMINÓ: EDICIÓN LIMITADA DISPONIBLE.</h1>
       <p class="hero-desc">
@@ -32,43 +45,46 @@
       <a href="#products" class="btn-primary">PRUËBALAS AHORA</a>
     </div>
 
-  
     <div class="hero-content" aria-hidden="true">
-    
-        <img src="img/hero.png" alt="Imagen Ilustrativa de gomitas edicion limitada">
-     
+        <img src="img/hero.png" 
+             alt="Imagen Ilustrativa de gomitas edicion limitada"
+             alt="Imagen de gomitas edicion limitada de dragon azucaras de fruta natural"
+             />
     </div>
   </section>
 
 
-  <section class="products" id="products">
+  <section class="products" id="products" aria-label="Catalogo de productos">
     <h2>Nuestros Sabores</h2>
     <p class="section-sub">Disfruta de tus gomitas</p>
-    <div class="products-grid">
-      <div class="card">
+
+    <section class="products-grid">
+      <article class="card">
         <img src="img/enchiladas.png" alt="Gomitas enchiladas">
         <h3>Convinacion extrema</h3>
         <p>Gomitas con confitado de diferentes chiless.</p>
         <span class="price">$250.00 1 kg</span>
-      </div>
-      <div class="card featured">
+      </article>
+
+      <article class="card featured">
         <div class="badge">La mas vendida</div>
         <img src="img/skirels.png" alt="Gomitas enchiladas">
         <h3>Fiesta de gomitas</h3>
         <p>Variedad de gomitas</p>
         <span class="price">$200.00 1 kg
         </span>
-      </div>
-      <div class="card">
-         <img src="img/panditas.png" alt="Gomitas enchiladas">
+      </article>
+
+      <article class="card">
+        <img src="img/panditas.png" alt="Gomitas enchiladas">
         <h3>Panditas</h3>
         <p>Panditas de diferentes colores. </p>
         <span class="price">$199.00 1 kg</span>
-      </div>
-    </div>
+      </article>
+    </section>
   </section>
+</main>
 
- 
   <footer class="footer">
     <div class="footer-logo">Gomitax</div>
     <p>© 2026 Gomitax. Todos los derechos reservados.</p>
